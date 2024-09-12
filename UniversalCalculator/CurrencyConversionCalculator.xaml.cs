@@ -234,6 +234,12 @@ namespace Calculator
 			convertTextBlock.Text = " ";
 			fromtoTextBlock.Text = " ";
 			tofromTextBlock.Text = " ";
+
+			MainMenu mainMenu = new MainMenu();
+			this.Content = mainMenu;
+
+
+
 		}
 	}
 }
